@@ -1,0 +1,17 @@
+html {
+    background: url(https://c4.wallpaperflare.com/wallpaper/438/690/443/technology-digital-art-wallpaper-preview.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    color: chartreuse;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: chartreuse;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

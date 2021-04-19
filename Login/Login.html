@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <script src="Login-js.js"></script>
+    <link href="login-css.css" rel="stylesheet" type="text/css" />
+
+    <head>
+        <title> UAT Agent Login</title>
+    </head>
+
+    <body>
+        <h2>
+            Enter your credentials here
+        </h2>
+        <br>
+        <br>
+        <P id="loginStats" class="loginID"> Checking credentials</P>
+        <br>
+        <br>
+        <!--this line creates the form for the user to input their info-->
+        <form style="color: goldenrod;" id="credSubmit" onsubmit="return false">
+            <!--this is the first line of the form to input the first name-->
+            First Name:     <input type="text" id="firstName" /> <br>
+            <!--This is the second line of the form to input the last name-->
+            Last Name:          <input  type="text" id="lastName" /> <br>
+            <!--This is the third line of the form to input the badge number-->
+            Badge Number:     <input  type="number" id="badgeNum" /> <br>
+            <input type="submit" onclick="checkCreds()" />
+        </form>
+    </body>
+
+</html>
